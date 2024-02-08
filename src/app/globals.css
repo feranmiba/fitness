@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: whitesmoke;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: white;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb:  whitesmoke;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.alone {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh; 
+  background-image: linear-gradient(to bottom, rgba(46, 48, 48, 0.539), rgba(24, 22, 22, 0.959)), url(./components/Image/fitness.jpg);
+
+}
+.scroll {
+  /* flex overflow-auto whitespace-nowrap w-full */
+  display: relative;
+  overflow: auto;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
