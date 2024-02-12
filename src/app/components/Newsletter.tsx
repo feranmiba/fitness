@@ -38,9 +38,8 @@ export default function Newsletter() {
                                     <a href="#">About Us</a>
                                     <a href="#" className="mt-4">Contact Us</a>
                                     <a href="#" className="mt-4">Pricing</a>
-                                    <p className=" text-xs mt-4">
-                    © 2024 GetFit Media LLC. All rights reserved. Our website services, content, and products are for informational purposes only. Get Fit is a website where we realease latest news on how you can better your health, we don't provide medical advice, diagonisis. See additional information. See additional information.
-                    </p>
+                                    <p className="text-xs mt-4"> &#39;© 2024 GetFit Media LLC. All rights reserved. Our&apos; website services, content, and products are for informational purposes only. Get&apos; Fit is a website where we release the latest news on how you can better your health; we don't provide medical advice or diagnosis. See additional information. See additional information.&#39;</p>
+
                 </div>  
             </div>
 

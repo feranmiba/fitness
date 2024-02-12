@@ -1,7 +1,8 @@
 # About
 
-This is a fitness web app
-It is design to help people about health matters and bring them closer to alot of people who have the same goal as them. 
+This fitness web application is designed to assist individuals with health-related concerns and connect them with a community of like-minded individuals sharing similar wellness goals.
+
+
 
 # Built with
 

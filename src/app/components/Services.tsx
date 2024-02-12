@@ -25,13 +25,13 @@ export default function Services() {
                     <h1 className="text-3xl font-bold">Yoga <br /> <span className=" text-sm">session</span></h1>
                     <div className=" text-start">
                     <p>The ultimate goal of yoga is to achieve a state of inner peace, known as “samadhi,” through the integration of our physical, mental, and spiritual selves.</p>
-                    <ul className=" list-disc mt-2">
-                        <li>Child's Pose — 5 breaths (One breath means a complete breath in and out.) </li>
+                    <ul className=" list-disc mt-2">&lsquo;
+                    <li>&lsquo;Child's Pose — 5 breaths (One breath means a complete breath in and out.)&rsquo;</li>
                         <li>Downward Facing Dog — 5 to 6 breaths. </li>
                         <li>Rag Doll — 5 to 6 breaths. </li>
                         <li>High Plank — 10 to 15 seconds. </li>
                         <li>Chaturanga Push-Ups — 3 reps. </li>
-                        <li>Upward Facing Dog — 1 full breath. </li>
+                        <li>Upward Facing Dog — 1 full breath. &rsquo;</li>
                     </ul>
                     </div>
                 </motion.div>
@@ -43,7 +43,7 @@ export default function Services() {
                     <div className=" text-start">
                     <p>The ultimate goal of yoga is to achieve a state of inner peace, known as “samadhi,” through the integration of our physical, mental, and spiritual selves.</p>
                     <ul className=" list-disc mt-2">
-                        <li>Child's Pose — 5 breaths (One breath means a complete breath in and out.) </li>
+                    <li>&lsquo;Child's Pose — 5 breaths (One breath means a complete breath in and out.)&rsquo;</li>
                         <li>Downward Facing Dog — 5 to 6 breaths. </li>
                         <li>Rag Doll — 5 to 6 breaths. </li>
                         <li>High Plank — 10 to 15 seconds. </li>
@@ -60,7 +60,7 @@ export default function Services() {
                     <div className=" text-start">
                     <p>The ultimate goal of yoga is to achieve a state of inner peace, known as “samadhi,” through the integration of our physical, mental, and spiritual selves.</p>
                     <ul className=" list-disc mt-2">
-                        <li>Child's Pose — 5 breaths (One breath means a complete breath in and out.) </li>
+                    <li>&lsquo;Child's Pose — 5 breaths (One breath means a complete breath in and out.)&rsquo;</li>
                         <li>Downward Facing Dog — 5 to 6 breaths. </li>
                         <li>Rag Doll — 5 to 6 breaths. </li>
                         <li>High Plank — 10 to 15 seconds. </li>
