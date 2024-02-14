@@ -86,7 +86,7 @@ export default function MobileNavbar (){
             className=' -ml-96 fixed top-0 ' > 
           <div className='flex flex-col bg-[#EFF1DE] items-start justify-start w-[900px] z-50  h-[100vh] pt-10 pl-8  gap-7 md:hidden'>
             <motion.p onClick={toggleMenu} className="text-2xl font-extrabold" variants={container} exit="exit"><IoCloseCircleSharp /></motion.p>
-          {mobileNAv.map((mobile) => ( <motion.button variants={item} className="flex gap-5">{mobile.navItem} <FaArrowRight /></motion.button>))}
+          {mobileNAv.map((mobile) => ( <motion.button variants={item} className="flex gap-5" key={mobile.id}>{mobile.navItem} <FaArrowRight /></motion.button>))}
             </div> </motion.div>
 
         </main>)},
