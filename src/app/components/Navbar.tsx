@@ -1,8 +1,9 @@
 "use client"
 
-import { FaHeart, FaDumbbell, FaFacebook, FaPinterest, FaX, FaDiscord, FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa6"
+import { FaHeart, FaDumbbell, FaFacebook, FaPinterest, FaX, FaDiscord, FaInstagram, FaTelegram, FaTiktok, FaAlignRight } from "react-icons/fa6"
 import { useState } from "react"
 import { motion, Variants } from "framer-motion";
+import MobileNavbar from "./MobileNavbar";
 
 const buttonVariants: Variants = {
     hidden: { opacity: 0 },
@@ -20,12 +21,13 @@ export default function Navbar() {
    return (
    <main className="bg-[#FFFAFA]  shadow-2xl">
     <nav className="flex justify-between px-4 md:px-14 py-5">
-        <h2 className="flex gap-3 text-3xl">Get  <span className=" text-red-800"><FaDumbbell  /> </span>  Fit </h2>  
+        <h2 className="flex gap-3 text-2xl md:text-3xl">Get  <span className=" text-red-800"><FaDumbbell  /> </span>  Fit </h2>  
 
 
-        <h1 className="flex gap-3 text-3xl">Be  
+        <h1 className="flex gap-3 text-2xl md:text-3xl">Be  
        <span className=" text-red-800"><FaHeart  /> </span> 
-         healthy</h1>
+         healthy  </h1>
+         <MobileNavbar />
 
         <div className=" gap-5 hidden md:flex">
             <motion.a
