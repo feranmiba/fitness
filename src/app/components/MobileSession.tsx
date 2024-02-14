@@ -67,7 +67,7 @@ const MobileSession: React.FC = () => {
                 key={index}
                 initial={{ x: `${(index - currentIndex) * 30}%` }}
                 animate={{ x: `${(index - currentIndex) * 30}%` }}
-                className="text-center w-[100%] px-8 py-10 rounded-xl  transition-opacity duration-500 ease-out  shadow-xl cursor-pointer bg-yoga bg-cover text-[#ebe6d1]"
+                className="text-center w-[100%] px-8 py-10 rounded-xl  transition-opacity duration-500   shadow-xl cursor-pointer bg-yoga bg-cover text-[#ebe6d1]"
               >
                 <h1 className="text-3xl font-bold w-[100%]">{sess.session}<br /> <span className=" text-sm">session</span></h1>
                 <div className="w-[100%]">
